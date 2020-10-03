@@ -1,7 +1,7 @@
 import { generalRequest, getRequest } from '../../utilities';
 import { url, port, entryPoint } from './server';
 
-const URL = `http://35.222.72.147:5000/${entryPoint}`;
+const URL = `http://35.222.72.147:4000/${entryPoint}`;
 
 const resolvers = {
 	Query: {
